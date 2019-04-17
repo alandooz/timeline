@@ -7,7 +7,7 @@
 #
 layout: home
 ---
-<script>
+<!-- <script>
 var xhr = new XMLHttpRequest();
 xhr.open("POST", 'https://rn21kls88l.execute-api.us-east-1.amazonaws.com/Production/add', true);
 
@@ -23,4 +23,4 @@ xhr.onreadystatechange = function() { // Call a function when the state changes.
 xhr.send("foo=bar&lorem=ipsum");
 // xhr.send(new Int8Array()); 
 // xhr.send(document);
-<script/>>
+<script/>> -->

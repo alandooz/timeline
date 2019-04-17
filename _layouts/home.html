@@ -9,7 +9,21 @@ layout: default
 
   {{ content }}
 
-  {%- for category in site.categories -%}
+  <ul class="post-list">
+    {%- for micropost in site.data.microposts -%}
+    <li>
+      <h3>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ micropost.created_at | date: date_format }}</span>
+        <!-- <a class="post-link" href="{{ post.url | relative_url }}"> -->
+        {{ micropost.micropost | escape }}
+        <!-- </a> -->
+      </h3>
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  <!-- {%- for category in site.categories -%}
   {%- if category[1].size > 0 -%}
     <h2 class="post-list-heading" id="{{ category[0] }}">{{ category[0] | capitalize }}</h2>
     <ul class="post-list">
@@ -29,6 +43,6 @@ layout: default
       {%- endfor -%}
     </ul>
     {%- endif -%}
-    {%- endfor -%}
+    {%- endfor -%} -->
 
 </div>
