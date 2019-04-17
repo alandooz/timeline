@@ -213,6 +213,10 @@
   color: $grey-color;
 }
 
+.post-meta::after {
+  content: " | ";
+}
+
 .post-link {
   display: block;
   @include relative-font-size(1);
