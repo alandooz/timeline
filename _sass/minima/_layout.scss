@@ -199,7 +199,7 @@
       align-items: center;
       margin-left: 5px;
 
-      > a {
+      > p {
         margin-left: 10px;
       }
 
@@ -215,7 +215,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  // @include relative-font-size(1.5);
 }
 
 
