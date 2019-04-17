@@ -3,5 +3,5 @@ cache: bundler
 sudo: false
 rvm: 2.4
 
-install: script/bootstrap
+# install: script/bootstrap
 script: script/cibuild

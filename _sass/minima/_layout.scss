@@ -214,7 +214,8 @@
 }
 
 .post-meta::after {
-  content: " | ";
+  content: " |";
+  margin-right: 10px;
 }
 
 .post-link {
