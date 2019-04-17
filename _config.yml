@@ -43,6 +43,8 @@ minima:
 #header_pages:
 # - about.html
 
+timezone: America/Argentina/Buenos_Aires
+
 # Build settings
 theme: minima
 
