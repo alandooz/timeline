@@ -24,6 +24,7 @@ layout: default
 
 <style>
 .post-link::before {
-  content: "<span class="post-meta">{{ micropost.created_at | date: date_format }}</span>";
+  content: "{{ micropost.created_at | date: date_format }} |";
+  margin-right: 10px;
 }
 </style>
