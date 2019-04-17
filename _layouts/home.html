@@ -15,7 +15,7 @@ layout: default
       <h3>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ micropost.created_at | date: date_format }}</span>
-        <p class="post-link">{{ micropost.micropost | escape }}</p>
+        <span class="post-link">{{ micropost.micropost | escape }}</span>
       </h3>
     </li>
     {%- endfor -%}

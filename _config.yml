@@ -1,4 +1,4 @@
-title: Alan Becker Capuyá | Blog
+title: Alan Becker Capuyá | Timeline
 # author: Alan Becker Capuyá
 # email: alan@beckercapuya.com
 # description: > # this means to ignore newlines until "twitter_username:"
@@ -6,7 +6,7 @@ title: Alan Becker Capuyá | Blog
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 url: "https://alanbeckercapuya.com"
-baseurl: "/blog"
+baseurl: "/timeline"
 
 # social links
 # twitter_username: alandooz
@@ -35,8 +35,8 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   # date_format: "%b %-d, %Y"
-  # date_format: "%d/%m/%Y %H:%M"
-  date_format: "%d/%m/%Y"
+  date_format: "%d/%m/%Y %H:%M"
+  # date_format: "%d/%m/%Y" 
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
