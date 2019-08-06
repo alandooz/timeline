@@ -17,7 +17,7 @@ layout: default
         <span class="post-meta">{{ micropost.created_at | date: date_format }}</span>
         <span class="post-link">{{ micropost.micropost | escape }}</span>
       </h3>
-      <p class="post-link" style="color: white;">{{ micropost.id }}</p>
+      <p style="color: white;">{{ micropost.id }}</p>
     </li>
     {%- endfor -%}
   </ul>
